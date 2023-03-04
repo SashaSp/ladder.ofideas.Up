@@ -1,0 +1,250 @@
+section {
+    background: linear-gradient(90deg, #000 0%, #000 22%, #040303 84%, #040303 98%, #292424 100%, #fff 100%);
+}
+
+
+.text-mot {
+    padding: 5px;
+    text-align: center;
+}
+
+.nav-link {
+    color: darkgoldenrod;
+}
+
+.nav-bar .nav-link.active {
+    color: rgb(214, 164, 38);
+}
+
+
+.navbar-brand img {
+    width: 30px;
+    height: 25px;
+}
+
+
+.navbar-toggler {
+    background-color: rgb(245, 176, 91);
+}
+
+
+.card-title {
+    font-style: unset;
+}
+
+.card-text {
+    font-style: italic;
+}
+
+
+.card img {
+    height: 350px;
+    width: 160px;
+    float: left;
+    border-style: solid;
+    padding: 2px;
+    border-width: 5px;
+}
+
+.sd {
+    background: linear-gradient(120deg, #000 0%, #4C2DF5 0%, #5C79F1 4%, #4C2DF5 15%, #4C2DF5 32%, #4C2DF5 39%, #5C79F1 43%, #fff 100%);
+    color: gold;
+}
+
+.card {
+    background: linear-gradient(120deg, #000 0%, #4C2DF5 0%, #5C79F1 4%, #4C2DF5 15%, #4C2DF5 32%, #4C2DF5 39%, #5C79F1 43%, #fff 100%);
+    color: aqua;
+}
+
+.row {
+    color: darkgoldenrod;
+    margin: auto auto;
+}
+
+.dvd {
+    text-align: left;
+}
+
+.vcv {
+    text-align: left;
+}
+
+
+/*Как будет выглядеть на телфоне*/
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
+
+
+/*Забота с текстом*/
+tbody {
+    display: flex;
+    padding: 20px;
+
+}
+
+img.p img {
+    border-style: solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+body {
+    padding-top: 15px;
+    padding-left: 100px;
+    padding-bottom: 17px;
+    padding-right: 55px;
+}
+
+span {
+    font-style: italic;
+}
+
+.work {
+
+    padding-left: 5px;
+
+}
+
+.tx p {
+    border-width: 5px;
+    margin-right: 25px;
+    padding-left: 5px;
+}
+
+.img1.p {
+    border-style: solid;
+    float: right;
+    padding: 5px;
+    margin-left: 10px;
+    width: 0.5px;
+}
+
+/*Таблица*/
+.non {
+    display: inline-block;
+    border-style: solid;
+    border-width: 0.5px;
+
+
+}
+
+.non>p {
+    justify-content: center;
+    font-weight: bold;
+}
+
+.non>ul {
+    color: rgb(190, 153, 30);
+}
+
+/*Бизнес*/
+.biz {
+    text-align: center;
+}
+/*Ronaldo*/
+.rnl {
+    text-align: center;
+}
+
+.spisoc {
+
+    display: inline-block;
+    border-style: solid;
+    border-width: 0.5px;
+}
+
+.spisoc>ul {
+    color: goldenrod;
+}
+
+.spisoc>li {
+    text-decoration: none;
+}
+
+.spisoc>p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.ron-t {
+    text-align: center;
+}
+
+.ron-2>p {
+    padding-top: 7px;
+}
+
+
+/*Забота с ссылками*/
+
+.razm {
+    background: linear-gradient (82deg, #176B96  0%, #0ED3F2  25%, rgba(18, 216, 246, 0.45) 47%, #fff  100%);
+}
+
+footer {
+    padding-top: 8px;
+    padding-left: 200px;
+    padding-right: 150px;
+}
+
+.vn>img {
+    display: flex;
+    text-decoration: none;
+    width: 90px;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7px;
+
+}
+
+.Vk {
+    animation: myAnim 3s ease 0s 1 normal forwards;
+}
+
+@keyframes myAnim {
+    0% {
+        animation-timing-function: ease-out;
+        transform: scale (1);
+        transform-origin: center center;
+    }
+
+    10% {
+        animation-timing-function: ease-in;
+        transform: scale (0.91);
+    }
+
+    17% {
+        animation-timing-function: ease-out;
+        transform: scale (0, 98);
+    }
+
+    33% {
+        animation-timing-function: ease-in;
+        transform: scale (0.87);
+    }
+
+    45% {
+        animation-timing-function: ease-out;
+        transform: scale(1);
+    }
+}
+
+.btn-danger {
+    display: flex;
+    padding-bottom: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.Vk>p {
+    text-align: right;
+}
+
